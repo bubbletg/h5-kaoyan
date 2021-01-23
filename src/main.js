@@ -1,4 +1,13 @@
+/*
+ * @Author: your name
+ * @Date: 2021-01-22 21:51:19
+ * @LastEditTime: 2021-01-23 15:00:14
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /h5-kaoyan/src/main.js
+ */
 import Vue from 'vue';
+import 'lib-flexible/flexible';
 import App from './App.vue';
 import router from './router';
 import store from './store';
