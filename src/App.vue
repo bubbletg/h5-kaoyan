@@ -1,12 +1,24 @@
+<!--
+ * @Author: BubbleTG
+ * @Date: 2021-01-22 21:51:19
+ * @LastEditTime: 2021-01-23 18:23:44
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /h5-kaoyan/src/App.vue
+-->
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <footer-tab/>
   </div>
 </template>
+<script>
+import footerTab from './components/footer-tab/footer-tab.vue';
+
+export default {
+  components: { footerTab },
+
+};
+</script>
 
 <style lang="scss">
 #app {

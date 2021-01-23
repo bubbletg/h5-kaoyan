@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-22 22:40:02
- * @LastEditTime: 2021-01-23 15:36:55
+ * @LastEditTime: 2021-01-23 17:49:42
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /h5-kaoyan/vue.config.js
@@ -24,8 +24,8 @@ module.exports = {
     loaderOptions: {
       sass: {
         additionalData: `
-        @import "~@/style/variables.scss";
-        @import "~@/style/mixin.scss";
+        @import "@/style/variables.scss";
+        @import "@/style/mixin.scss";
             `,
       },
     },
