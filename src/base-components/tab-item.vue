@@ -1,7 +1,7 @@
 <!--
  * @Author: BubbleTG
  * @Date: 2021-01-23 17:54:45
- * @LastEditTime: 2021-01-23 19:37:17
+ * @LastEditTime: 2021-01-24 12:10:08
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /h5-kaoyan/src/components/tab-item.vue
@@ -18,6 +18,12 @@
 </template>
 
 <script>
+/**
+ * tabbar
+ * @module base-components/tab-item
+ * @desc 底部tab-item, 依赖 tabbar
+ * @param {*} [id] - id
+ */
 export default {
   props: ['id'],
 };

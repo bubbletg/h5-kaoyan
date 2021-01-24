@@ -1,13 +1,14 @@
 <!--
  * @Author: BubbleTG
  * @Date: 2021-01-22 21:51:19
- * @LastEditTime: 2021-01-23 19:28:27
+ * @LastEditTime: 2021-01-24 12:08:18
  * @LastEditors: Please set LastEditors
  * @Description: 底部导航
  * @FilePath: /h5-kaoyan/src/components/tabbar.vue
 -->
 <template>
-  <div class="tabbar" :class="{ 'is-fixed': fixed }">
+  <div class="tabbar" :class="{ 'is-fixed': fixed }"
+  >
     <slot></slot>
   </div>
 </template>
@@ -15,7 +16,7 @@
 <script>
 /**
  * tabbar
- * @module components/tabbar
+ * @module base-components/tabbar
  * @desc 底部tab, 依赖 tab-item
  * @param {booleam} [fixed = false] - 固定底部
  * @param {*} value - 返回 item component 传入的 id
